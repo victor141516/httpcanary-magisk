@@ -139,7 +139,7 @@ fi
 # Handle replace folders
 for TARGET in $REPLACE; do
   ui_print "- Replace target: $TARGET"
-  mktouch $MODPATH$TARGET/.replace
+  # mktouch $MODPATH$TARGET/.replace
 done
 
 if $BOOTMODE; then

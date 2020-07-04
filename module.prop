@@ -1,7 +1,7 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v1.5
+id=httpcanary-magisk
+name=HttpCanary Magisk
+version=v1.0
 versionCode=6
-author=Zackptg5
-description=
-support=https://forum.xda-developers.com/apps/magisk/MMT-Extended
+author=victor141516
+description=In recent versions of Android, HttpCanary cannot copy the CA certificate to system because /system is read-only. This module simply puts the certificate where it should be.
+support=https://github.com/victor141516/httpcanary-magisk/issues

@@ -1,5 +1,5 @@
-id=httpcanary-magisk
-name=HttpCanary Magisk
+id=httpcanary-system-ca-mounter
+name=HttpCanary System CA Mounter
 version=v1.0
 versionCode=6
 author=victor141516

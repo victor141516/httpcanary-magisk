@@ -1,7 +1,7 @@
 id=httpcanary-system-ca-mounter
 name=HttpCanary System CA Mounter
-version=v1.0
+version=v2.0
 versionCode=6
 author=victor141516
-description=In recent versions of Android, HttpCanary cannot copy the CA certificate to system because /system is read-only. This module simply puts the certificate where it should be.
-support=https://github.com/victor141516/httpcanary-magisk/issues
+description=In recent versions of Android, HttpCanary cannot copy the CA certificate to system because /system is read-only. This module handles all the certificates stuff.
+updateJson=https://raw.githubusercontent.com/victor141516/httpcanary-magisk/master/update.json

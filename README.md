@@ -1,37 +1,15 @@
-<h1 align="center">Magisk Module Template Extended (MMT-Ex)</h1>
+# HttpCanary System CA Mounter
 
-<div align="center">
-  <!-- Version -->
-    <img src="https://img.shields.io/badge/Version-v2.0-blue.svg?longCache=true&style=popout-square"
-      alt="Version" />
-  <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-January 21, 2022-green.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" />
-  <!-- Min Magisk -->
-    <img src="https://img.shields.io/badge/MinMagisk-20.4-red.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" /></div>
+In recent versions of Android, [HttpCanary](https://play.google.com/store/apps/details?id=com.guoshi.httpcanary&hl=es) cannot copy the CA certificate to system because `/system` is read-only. 
 
-<div align="center">
-  <strong>MMT Extended is the spiritual successor of Unity and makes magisk module creation easy. Instructions in the 
-    <h3><a href="https://github.com/Zackptg5/MMT-Extended/wiki">Wiki</a></h3>
-</div>
+This module handles all the certificates stuff.
 
-<div align="center">
-  <h3>
-    <a href="https://github.com/Zackptg5/MMT-Extended">
-      Source Code
-    </a>
-    <span> | </span>
-    <a href="https://github.com/Zackptg5/MMT-Extended-Addons">
-      Addons Repository
-    </a>
-    <span> | </span>
-    <a href="https://forum.xda-developers.com/apps/magisk/magisk-module-template-extended-mmt-ex-t4029819">
-      XDA
-    </a>
-  </h3>
-</div>
+## Usage
 
-### Usage
-- [Follow the directions here (DO NOT FORK)](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-- Then follow instructions in [Wiki](https://github.com/Zackptg5/MMT-Extended/wiki)
+1. Install HttpCanary Premium: https://t.me/random_stuff_of_mine/110
+2. Open the app and go through the installation assistant until you get the certificate error.
+3. Install the module: https://github.com/victor141516/httpcanary-magisk-ng/blob/master/install.zip
+4. Reboot
+5. Open HttpCanary and go to Settings --> HttpCanary Root CA Settings --> Add as system-trusted(Root). Click on Move
+6. If a message with the text "Congratulations, ..." pops, it means everything is working!!
+7. Use the app as usual

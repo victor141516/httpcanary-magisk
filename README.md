@@ -6,7 +6,7 @@ This module handles all the certificates stuff.
 
 ## Usage
 
-1. Install HttpCanary Premium: https://t.me/random_stuff_of_mine/110
+1. Install HttpCanary (no premium): https://t.me/random_stuff_of_mine/110
 2. Open the app and go through the installation assistant until you get the certificate error.
 3. Install the module: https://github.com/victor141516/httpcanary-magisk-ng/blob/master/install.zip
 4. Reboot

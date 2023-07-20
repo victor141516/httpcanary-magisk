@@ -1,6 +1,6 @@
 {
   "version": "v2.0",
-  "versionCode": 10,
-  "zipUrl": "https://raw.githubusercontent.com/victor141516/httpcanary-magisk/install.zip",
-  "changelog": "https://raw.githubusercontent.com/victor141516/httpcanary-magisk/changelog.md"
+  "versionCode": 15,
+  "zipUrl": "https://github.com/victor141516/httpcanary-magisk/raw/master/install.zip",
+  "changelog": "https://github.com/victor141516/httpcanary-magisk/raw/master/changelog.md"
 }

@@ -1,4 +1,3 @@
-# Check free or premium
 if ! test -d /data/data/com.guoshi.httpcanary && ! test -d /data/data/com.guoshi.httpcanary.premium; then
   echo "Could not find an HttpCanary installation"
   exit 1
